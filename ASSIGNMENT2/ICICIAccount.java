@@ -6,7 +6,7 @@ public class ICICIaccount extends Account{
 	double ICICIinterestRate;
     double ICICIAmount;
     int noOfYears;
-    //int ageOfACHolder;
+    
     double General;
     Scanner FDScanner = new Scanner(System.in);
 
@@ -16,8 +16,7 @@ public class ICICIaccount extends Account{
 
         System.out.println("Enter the no of years");
         noOfYears = FDScanner.nextInt();
-        //System.out.println("Enter FD age holder ");
-        //ageOfACHolder = FDScanner.nextInt();
+
         System.out.println("ENTER THE TYPE OF LOAN " + "\n1." + "HOUSE LOAN" + " \n2." + "EDUCATIONAL LOAN"
                     + "\n3." + "PERSONAL LOAN" + "\n4 " + " Exit");
                      int choice = sc.nextInt();

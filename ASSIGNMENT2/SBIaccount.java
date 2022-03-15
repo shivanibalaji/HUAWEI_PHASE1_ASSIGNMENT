@@ -7,7 +7,7 @@ public class SBIaccount extends Account {
     double SBIInterestRate;
     double SBIamount;
     int noOfYears;
-    //double monthlyAmount;
+  
     double General;
     Scanner SBIScanner = new Scanner(System.in);
 
@@ -16,8 +16,7 @@ public class SBIaccount extends Account {
         this.SBIamount = Ramount;
         System.out.println("Enter the number of years");
         noOfYears = SBIScanner.nextInt();
-        //System.out.println("Enter RD holder age");
-        //int age = RDScanner.nextInt();
+        
         System.out.println("ENTER THE TYPE OF LOAN " + "\n1." + "HOUSE LOAN" + " \n2." + "EDUCATIONAL LOAN"
                     + "\n3." + "PERSONAL LOAN" + "\n4 " + " Exit");
                      int choice = sc.nextInt();

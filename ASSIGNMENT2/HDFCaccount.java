@@ -7,7 +7,7 @@ public class HDFCaccount extends Account {
     double HDFCInterestRate;
     double HDFCamount;
     int noOfYears;
-    //double monthlyAmount;
+    
     double General;
     Scanner HDFCScanner = new Scanner(System.in);
 
@@ -16,8 +16,7 @@ public class HDFCaccount extends Account {
         this.HDFCamount = Ramount;
         System.out.println("Enter the number of years");
         noOfYears = HDFCScanner.nextInt();
-        //System.out.println("Enter RD holder age");
-        //int age = RDScanner.nextInt();
+        
         System.out.println("ENTER THE TYPE OF LOAN " + "\n1." + "HOUSE LOAN" + " \n2." + "EDUCATIONAL LOAN"
                     + "\n3." + "PERSONAL LOAN" + "\n4 " + " Exit");
                      int choice = sc.nextInt();
